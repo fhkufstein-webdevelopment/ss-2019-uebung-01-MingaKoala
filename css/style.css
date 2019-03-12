@@ -48,9 +48,63 @@ footer {
     padding-top:20px;
 }
 
+/*Aufgabe a */
+header .inner, #main .inner, footer .inner { /*ich kann hier alles einzel oder in einer zeile schreiben durch test probiert geht beides*/
+    width:990px;
+    margin:0 auto;
+}
+
+/*header = Kopfzeile, main= Mainelemente, footer= fußzeile mit der breite =width von 990px für alle der außenabstand = margin beträgt 0 bzw auto es passt sich an zentriert sich*/
 
 
+/*Aufgabe b*/
 
+header nav ul { /*Kopfbereich wird verändert */
+    list-style-type: none; /* entferne ich die Aufzählungspunkte*/
+    margin:0; /* außenabstand */
+    padding:0; /*innenabstand*/
+}
 
+header nav a {
+    text-decoration: none; /*unterstriche weg gemacht */
+}
 
+header nav .level_1 li a {
+    color:#337ab7;
+    font-size: 20px;
+    font-weight: 800;
+}
 
+header nav .level_2 li a {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+header nav .level_2 {
+    background-color:#fff;
+}
+
+header nav .level_2 li:hover {
+    background-color:#337ab7;
+}
+
+header nav .level_2 li:hover a {
+    color:#fff;
+}
+
+header nav {
+    margin-bottom:15px;
+}
+
+/* display versuch */
+
+header nav .level_1 li:hover .level_2 {
+    display:table-row; /*Mit der Eigenschaft display wird festgelegt, welche Art von Box ein Element erzeugt. Jedes Element kann null oder mehr Boxen erzeugen.*/
+    width: 100%;
+    display: table-cell;
+    min-width: 300px;
+    padding:15px 10px;
+    background-color: white; /* test versuch mit der farbe hat nichts gebracht daher unnötig*/
+}
+/* ab display mit den level 1 und level 2 */
+/*Merke display: inline-block sehr schlechte Wahl gewesen*/
