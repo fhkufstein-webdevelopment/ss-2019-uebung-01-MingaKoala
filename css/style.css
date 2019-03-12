@@ -99,7 +99,7 @@ header nav {
 /* display versuch */
 
 header nav .level_1 li:hover .level_2 {
-    display:table-row; /*Mit der Eigenschaft display wird festgelegt, welche Art von Box ein Element erzeugt. Jedes Element kann null oder mehr Boxen erzeugen.*/
+    display:table-row; /* Mit der Eigenschaft display wird festgelegt, welche Art von Box ein Element erzeugt. Jedes Element kann null oder mehr Boxen erzeugen.*/
     width: 100%;
     display: table-cell;
     min-width: 300px;
